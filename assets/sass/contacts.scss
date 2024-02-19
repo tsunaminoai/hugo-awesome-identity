@@ -21,7 +21,7 @@
   .contact:hover {
     background: $color-primary;
     color: $color-secondary;
-    box-shadow: $color-hover-shadow;
+    box-shadow: $hover-shadow;
     position: relative;
   }
 }
