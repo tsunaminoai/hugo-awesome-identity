@@ -26,7 +26,7 @@
       height: 2px;
       left: 50%;
       bottom: -0.3em;
-      background: lighten(rgb(182, 38, 44), 10%);
+      background: lighten($color-primary, 10%);
       -webkit-transform: translateX(-50%);
       transform: translateX(-50%);
     }

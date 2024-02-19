@@ -1,3 +1,11 @@
+// define colors
+$color-primary: #b6262c;
+$color-secondary: #f4f4f4;
+$color-tertiary: #333;
+$color-quaternary: #fff;
+$hover-shadow: 0 0 1px 7px $color-tertiary;
+
+
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +35,7 @@ body {
 }
 
 a {
-  color: rgb(182, 38, 44);
+  color: $color-primary;
   text-decoration: none;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
@@ -40,11 +48,11 @@ a {
 }
 
 ::selection {
-  background-color: rgb(182, 38, 44);
-  color: white;
+  background-color: $color-primary;
+  color: $color-secondary;
 }
 
 ::-moz-selection {
-  background-color: rgb(182, 38, 44);
-  color: white;
+  background-color: $color-primary;
+  color: $color-secondary
 }
